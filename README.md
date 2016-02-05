@@ -1,12 +1,15 @@
 Runs an [Exhibitor](https://github.com/Netflix/exhibitor)-managed [ZooKeeper](http://zookeeper.apache.org/) instance using S3 for backups and automatic node discovery.
 
-Available on the Docker Index as [mbabineau/zookeeper-exhibitor](https://index.docker.io/u/mbabineau/zookeeper-exhibitor/):
+Available on the Docker Index as [neverhood/zookeeper-exhibitor](https://index.docker.io/u/neverhood/zookeeper-exhibitor/):
 
-    docker pull mbabineau/zookeeper-exhibitor
+    docker pull neverhood/zookeeper-exhibitor
+
+The image is based on Alpine Linux and is ~272MB.
 
 ### Versions
 * Exhibitor 1.5.5
 * ZooKeeper 3.4.6
+* Java 1.8
 
 ### Usage
 The container expects the following environment variables to be passed in:
