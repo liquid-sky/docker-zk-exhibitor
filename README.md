@@ -36,7 +36,7 @@ Starting the container:
         -e AWS_ACCESS_KEY_ID=<access_key> \
         -e AWS_SECRET_ACCESS_KEY=<secret_key> \
         -e HOSTNAME=<host> \
-        mbabineau/zookeeper-exhibitor:latest
+        neverhood/zookeeper-exhibitor:latest
 
 Once the container is up, confirm Exhibitor is running:
 
@@ -94,4 +94,4 @@ Starting the container:
         -e S3_BUCKET=<bucket> \
         -e S3_PREFIX=<key_prefix> \
         -e HOSTNAME=<host> \
-        mbabineau/zookeeper-exhibitor:latest
+        neverhood/zookeeper-exhibitor:latest
